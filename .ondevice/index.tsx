@@ -1,7 +1,6 @@
-import React from 'react';
-import AsyncStorage from '@react-native-async-storage/async-storage';
-import { view } from './storybook.requires';
-import { SafeAreaView } from 'react-native';
+import AsyncStorage from "@react-native-async-storage/async-storage";
+import { view } from "./storybook.requires";
+import { SafeAreaView } from "react-native";
 
 let onDeviceUI = true;
 let Storybook = () => <StorybookUIRoot />;
